@@ -5,7 +5,7 @@
 <!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper   // ?register=false  不需要注册到注册中心-->
     <dubbo:registry address="zookeeper://localhost:2181?register=false"/>
      <!-- 用dubbo协议在20880端口暴露服务 -->
-    <dubbo:protocol name="dubbo" port="20880" />`
+    <dubbo:protocol name="dubbo" port="20880" />
 ```
 ####   2.服务消费者
   
